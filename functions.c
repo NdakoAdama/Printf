@@ -1,20 +1,3 @@
-
-preshykene
-/
-printf
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-printf/functions.c
-@ChinweIjy1
-ChinweIjy1 Function and main resolved
- 2 contributors
-183 lines (168 sloc)  3.94 KB
 #include "main.h"
 
 /************************* PRINT CHAR *************************/
@@ -187,7 +170,7 @@ int print_binary(va_list types, char buffer[],
 	}
 	for (i = 0, sum = 0, count = 0; i < 32; i++)
 	{
-i		sum += a[i];
+		sum += a[i];
 		if (sum || i == 31)
 		{
 			char z = '0' + a[i];
